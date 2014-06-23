@@ -4,18 +4,6 @@
 /
 -------------------------------------------------- */
 
-h1, h2, h3 {
-  font-family: 'Enriqueta';        
-}
-
-.jumbotron {
-  padding-left: 0;
-}
-
-h2.panel-title {
-  font-size: 30px;
-}
-
 body {
   font-family: 'PT Sans';        
 }
@@ -26,6 +14,14 @@ a {
 
 a:hover {
   color: #7d3c75;
+}
+
+h1, h2, h3 {
+  font-family: 'Enriqueta';        
+}
+
+h2.panel-title {
+  font-size: 30px;
 }
 
 code {
@@ -41,6 +37,10 @@ strong {
 .well {
   background-color: white;
   margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-left: 0;
 }
 
 #buttons-row {
@@ -70,6 +70,11 @@ strong {
 
 .modal-dialog {
   width: 720px;
+}
+
+.giant-and-green {
+  color: #b2b84a;
+  font-size: 3000%;
 }
 
 /* Color blocks
