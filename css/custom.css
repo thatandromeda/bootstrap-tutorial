@@ -8,6 +8,10 @@ h1, h2, h3 {
   font-family: 'Enriqueta';        
 }
 
+.jumbotron {
+  padding-left: 0;
+}
+
 h2.panel-title {
   font-size: 30px;
 }
