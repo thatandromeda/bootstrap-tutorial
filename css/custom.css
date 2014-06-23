@@ -1,0 +1,88 @@
+/* 
+/
+/  Custom overrides
+/
+-------------------------------------------------- */
+
+h1, h2, h3 {
+  font-family: 'Enriqueta';        
+}
+
+body {
+  font-family: 'PT Sans';        
+}
+
+a {
+  color: #7d3c75;
+}
+
+a:hover {
+  color: #e67747;
+}
+
+/* Color blocks
+-------------------------------------------------- */
+
+.bg-yellow {
+  background: #fcd67e !important;
+  color: white !important;
+  border-color: #fcd67e !important;
+}
+
+.bg-orange {
+  background: #e67747 !important;
+  color: white !important;
+  border-color: #e67747 !important;
+}
+
+.bg-purple {
+  background: #7d3c75 !important;
+  color: white !important;
+  border-color: #7d3c75 !important;
+}
+
+.bg-lavendar {
+  background: #826c9c !important;
+  color: white !important;
+  border-color: #826c9c !important;
+}
+
+.bg-green {
+  background: #b2b84a !important;
+  color: white !important;
+  border-color: #b2b84a !important;
+}
+
+.bg-neutral, a.btn:hover, .panel-heading:hover  {
+  background: #bdbdb9 !important;
+  border-color: #bdbdb9 !important;
+  color: white !important;
+}
+
+.panel-heading:hover a {
+  color:inherit;
+}
+
+.modal-dialog {
+  width: 720px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  padding-top: 20px;
+}      
+
