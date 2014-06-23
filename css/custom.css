@@ -8,16 +8,64 @@ h1, h2, h3 {
   font-family: 'Enriqueta';        
 }
 
+h2.panel-title {
+  font-size: 30px;
+}
+
 body {
   font-family: 'PT Sans';        
 }
 
 a {
-  color: #7d3c75;
+  color: #e67747;
 }
 
 a:hover {
+  color: #7d3c75;
+}
+
+code {
+  color: #B85F38;
+  background-color: #FCF1EC;
+}
+
+strong {
   color: #e67747;
+  font-weight: bold;
+}
+
+.well {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+#buttons-row {
+  padding-bottom: 34px;
+}
+
+.gold-star {
+  color: #fcd67e;
+  border: 2px solid #fcd67e;
+  border-radius: 7px;
+  margin-bottom: -2px;
+  padding: 0.25em;
+}
+
+.gold-star:hover {
+  color: #e67747;
+  border-color: #e67747;
+}
+
+.gold-star:hover:after {
+  content: " yay! you rock :)";
+}
+
+.panel-heading:hover a {
+  color:inherit;
+}
+
+.modal-dialog {
+  width: 720px;
 }
 
 /* Color blocks
@@ -57,14 +105,6 @@ a:hover {
   background: #bdbdb9 !important;
   border-color: #bdbdb9 !important;
   color: white !important;
-}
-
-.panel-heading:hover a {
-  color:inherit;
-}
-
-.modal-dialog {
-  width: 720px;
 }
 
 /* Sticky footer styles

@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans|Enriqueta:700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- begin header -->
+    <div class="jumbotron bg-purple">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-offset-10">
+            <h1>
+              Make stuff!
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end header -->
+
+    <!-- begin main container div -->
+    <div class="container-fluid">
+      <!-- begin main row div -->
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <!-- begin accordion group -->
+          <div class="panel-group" id="accordion">
+            <!-- begin accordion group section 1 -->
+            <div class="panel panel-default">
+              <!-- begin accordion group section 1 header-->
+              <div class="panel-heading bg-orange">
+                <h2 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Jumbotron
+                  </a>
+                </h2>
+              </div>
+              <!-- end accordion group section 1 header-->
+              <!-- begin accordion group section 1 content-->
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <p class="lead">
+                    Give your page an attention-grabbing header.
+                  </p>
+                  <ul>
+                    <li>
+                      Find the header div.
+                    </li>
+                    <li>
+                      Add <code>class="jumbotron"</code> to it.
+                    </li>
+                    <li>
+                      Reload the page. <strong>BOOM!</strong> Done. Gold 
+                      star for you: <span class="glyphicon glyphicon-star gold-star"></span>
+                    </li>
+                  </ul>
+
+                  <!-- begin inner accordion -->
+                  <div class="panel-group" id="accordionOneInner">
+                    <div class="panel panel-default">
+                      <!-- begin inner accordion header -->
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordionOneInner" href="#collapseOneInner">
+                            <em>But wait</em>, there's more...
+                          </a>
+                        </h3>
+                      </div>
+                      <!-- end inner accordion header -->
+                      <!-- begin inner accordion content -->
+                      <div id="collapseOneInner" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                          <!-- begin jumbotron full-width instructions -->
+                          <p>
+                            Make the jumbotron stretch the full width of the
+                            page (like it does on this page).
+                          </p>
+                          <ul>
+                            <li>
+                              Move the header div to the <em>outside</em> of the
+                              container div.
+                            </li>
+                            <li>
+                              Reload the page. <strong>BOOM!</strong> Done.
+                              <span class="glyphicon glyphicon-star gold-star"></span>
+                            </li>
+                          </ul>
+                          <!-- end jumbotron full-width instructions -->
+
+                          <!-- begin jumbotron background color instructions -->
+                          <p>
+                            Give it a pretty background color.
+                          </p>
+                          <ul>
+                            <li>
+                              Add a style section to the head of the
+                              base template (<code>&lt;style type="text/css"&gt;...&lt;/style&gt;</code>).
+                            </li>
+                            <li>
+                              (Of course on a production web site you'd have
+                              a link to a additional external stylesheet,
+                              say <code>custom.css</code>, but this is
+                              nice for just playing around.)
+                            </li>
+                            <li>
+                              Add a <code>background</code> rule for
+                              <code>.jumbotron { ... }</code>. (#7d3c75 is a 
+                              nice color.)
+                            </li>
+                            <li>
+                              You might also need to change the text color
+                              for adequate contrast with your new
+                              background (<code>color: white;</code>, say).
+                            </li>
+                            <li>
+                              Reload the page.
+                              <span class="glyphicon glyphicon-star gold-star"></span>
+                            </li>
+                          </ul>
+                          <!-- end jumbotron background color instructions -->
+                          
+                          <!-- begin jumbotron background image instructions -->
+                          <p>
+                            Or give it a fancy background image.
+                          </p>
+                          <ul>
+                            <li>
+                              Add a style section, as above.
+                            <li>
+                              Add a rule for <code>.jumbotron</code> like
+                              <code>background-image: url('http://www.zastavki.com/pictures/originals/2013/Animals___Cats_Maine_coon_cat_on_a_black_background_045533_.jpg');</code>.
+                              (Substitute in your fave image as desired.)
+                            </li>
+                            <li>
+                              You may need to add a rule like
+                              <code>color: white;</code> to keep your
+                              header text readable.
+                            </li>
+                            <li>
+                              You may also want to add a <code>background-size: 100%;</code>
+                              rule, or play around with the <code>height</code>
+                              of your jumbotron.
+                            </li>
+                            <li>
+                              <span class="glyphicon glyphicon-star gold-star"></span>
+                            </li>
+                          </ul>
+                          <!-- begin jumbotron background image instructions -->
+                          <p>
+                          </p>
+                        </div>
+                      </div>
+                      <!-- end inner accordion content -->
+                    </div>
+                  </div>
+                  <!-- end inner accordion -->
+                  <div class="well">
+                    <p>
+                      <strong>
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Having trouble?
+                      </strong>
+                      Put a sticky note on your computer!
+                    </p>
+                    <p>
+                      All done? Help people with sticky notes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end accordion group section 1 content-->
+            </div>
+            <!-- end accordion group section 1 -->
+
+            <!-- begin accordion group section 2 -->
+            <div class="panel panel-default">
+              <!-- begin accordion group section 2 header-->
+              <div class="panel-heading bg-yellow">
+                <h2 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Page navigation
+                  </a>
+                </h2>
+              </div>
+              <!-- end accordion group section 2 header-->
+              <!-- begin accordion group section 2 content-->
+              <div id="collapseTwo" class="panel-collapse collapse out">
+                <div class="panel-body">
+                  <p class="lead">
+                    Because everyone needs navigation menus.
+                  </p>
+                  <ul>
+                    <li>
+                      Add an unordered list.
+                    </li>
+                    <li>
+                      Add <code>class="nav nav-tabs"</code> to your list..
+                    </li>
+                    <li>
+                      Add some links to your list.
+                    </li>
+                    <li>
+                      Make sure the link text in each <code>&lt;li&gt;...&lt;/li&gt;</code>
+                      item is actually a link (<code>&lt;a href="#"&gt;linktext&lt;/a&gt;</code>).
+                      The link doesn't have to go anywhere, but it needs
+                      to be an <code>&lt;a&gt;</code> element or the styles won't
+                      apply.
+                    </li>
+                    <li>
+                      Add <code>class="active"</code> to the menu item
+                      representing your current page.
+                    </li>
+                    <li>
+                      <span class="glyphicon glyphicon-star gold-star"></span>
+                    </li>
+                  </ul>
+                  <p>
+                    Need some inspiration, or a reminder of the HTML syntax for lists?
+                    You can copy-paste this:
+                  </p>
+<pre><code>&lt;ul class="nav nav-tabs"&gt;
+  &lt;li&gt;
+    &lt;a href="#"&gt;
+      Shazam
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="active"&gt;
+    &lt;a href="#"&gt;
+      Vesper
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="#"&gt;
+      All other cats on earth
+    &lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+                  <!-- begin inner accordion -->
+                  <div class="panel-group" id="accordionTwoInner">
+                    <div class="panel panel-default">
+                      <!-- begin inner accordion header -->
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordionTwoInner" href="#collapseTwoInner">
+                            <em>But wait</em>, there's more...
+                          </a>
+                        </h3>
+                      </div>
+                      <!-- end inner accordion header -->
+                      <!-- begin inner accordion content -->
+                      <div id="collapseTwoInner" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                          <ul>
+                            <li>
+                              Use <code>class="nav-pills"</code> instead of
+                              <code>class="nav-tabs"</code>.
+                            </li>
+                            <li>
+                              Add <code>class="nav-stacked"</code> to either
+                              tabs or pills for a vertical menu.
+                            </li>
+                            <li>
+                              Add <code>class="nav-justified"</code> to make
+                              your nav bar take the full width of the screen
+                              at desktop sizes (will stack vertically on
+                              smaller screens).
+                            </li>
+                            <li>
+                              Add an on-click dropdown menu (see 
+                              <a href="http://getbootstrap.com/components/#nav-dropdowns">
+                              Bootstrap documentation</a>).
+                            </li>
+                            <li>
+                              Turn it into a nav bar (see <a href="http://getbootstrap.com/components/#navbar">
+                              Bootstrap documentation</a>).
+                            </li>
+                            <li>
+                              <span class="glyphicon glyphicon-star gold-star"></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- end inner accordion content -->
+                    </div>
+                  </div>
+                  <!-- end inner accordion -->
+
+                  <div class="well">
+                    <p>
+                      <strong>
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Having trouble?
+                      </strong>
+                      Put a sticky note on your computer!
+                    </p>
+                    <p>
+                      All done? Help people with sticky notes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end accordion group section 2 content-->
+            </div>
+            <!-- end accordion group section 2 -->
+
+            <!-- begin accordion group section 3 -->
+            <div class="panel panel-default">
+              <!-- begin accordion group section 3 header-->
+              <div class="panel-heading bg-green">
+                <h2 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Grid system
+                  </a>
+                </h2>
+              </div>
+              <!-- end accordion group section 3 header-->
+              <!-- begin accordion group section 3 content-->
+              <div id="collapseThree" class="panel-collapse collapse out">
+                <div class="panel-body">
+                  <p class="lead">
+                    Orderly yet customizable layout makes everything
+                    look professional.
+                  </p>
+                  <p>
+                    Bootstrap is built on a <em>twelve-column grid 
+                    system</em>. Its responsive magic takes care of how wide 
+                    each column should be on each device, including padding. 
+                    It also decides when sections should be stacked 
+                    vertically vs. placed side-by-side. You just decide how 
+                    many columns wide each of your sections should be.
+                  </p>
+                  <p>
+                    If you can count to twelve, you can make good-looking
+                    layouts.
+                  </p>
+                  <p>
+                    <strong>Post-it note exercise time!</strong>
+                  </p>
+
+                  <!-- begin inner accordion -->
+                  <div class="panel-group" id="accordionThreeInner">
+                    <div class="panel panel-default">
+                      <!-- begin inner accordion header -->
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordionThreeInner" href="#collapseThreeInner">
+                            Layout examples
+                          </a>
+                        </h3>
+                      </div>
+                      <!-- end inner accordion header -->
+                      <!-- begin inner accordion content -->
+                      <div id="collapseThreeInner" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                          <p>
+                            FYI, these will only properly explain what I mean
+                            at desktop widths - the columns need to be able 
+                            to stretch horizontally so you can see how the 
+                            post-its align with the sections.
+                          </p>
+                          
+                          <!-- begin two equal-width sections example -->
+                          <hr />
+                          <h4>
+                            Two equal-width sections
+                          </h4>
+                          <p>
+                            Half of 12 is 6, so each section is 6 columns
+                            across. 6 + 6 = 12.
+                          </p>
+                          <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                              <div class="row">
+                                <div class="col-md-6 well">
+                                  section 1 (<code>col-md-6</code>)
+                                </div>
+                                <div class="col-md-6 well">
+                                  section 2 (<code>col-md-6</code>)
+                                </div>
+                              </div>
+                              <!-- begin post-it note row -->
+                              <div class="row">
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                              </div>
+                              <!-- end post-it note row -->
+                            </div>
+                          </div>
+                          <!-- end two equal-width sections example -->
+
+                          <!-- begin 1/4 and 3/4 sections example -->
+                          <hr />
+                          <h4>
+                            One-quarter-width sidebar, three-quarter main
+                            content
+                          </h4>
+                          <p>
+                            1/4 of 12 is 3, so the sidebar is 3 columns
+                            wide. The other section is 9 columns wide.
+                            3 + 9 = 12.
+                          </p>
+                          <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                              <div class="row">
+                                <div class="col-md-3 well">
+                                  section 1 (<code>col-md-3</code>)
+                                </div>
+                                <div class="col-md-9 well">
+                                  section 2 (<code>col-md-9</code>)
+                                </div>
+                              </div>
+                              <!-- begin post-it note row -->
+                              <div class="row">
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                              </div>
+                              <!-- end post-it note row -->
+                            </div>
+                          </div>
+                          <!-- end 1/4 and 3/4 sections example -->
+
+                          <!-- begin 1/3 and 2/3 sections example -->
+                          <hr />
+                          <h4>
+                            One-third-width sidebar, two-thirds-width main
+                            content
+                          </h4>
+                          <p>
+                            Your turn! You figure this one out. Compare
+                            notes with your neighbors and make sure you
+                            agree.
+                          </p>
+                          <!-- end 1/3 and 2/3 sections example -->
+
+                          <!-- begin offset example -->
+                          <hr />
+                          <h4>
+                            Central content area plus big margins
+                          </h4>
+                          <p>
+                            You can also add offset classes, in case
+                            you'd like wide whitespace.  Offsets will add
+                            X columns of white space to the left of
+                            their element.
+                          </p>
+                          <p>
+                            This presentation has a 1-column offset, then
+                            a 10-column content area. 1 + 10 = 11; the
+                            1 column we haven't accounted for yet is
+                            white space off to the right.  It works out
+                            like this:
+                          </p>
+                          <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                              <div class="row">
+                                <div class="col-md-10 col-md-offset-1 well">
+                                  section 1 (<code>col-md-10 col-md-offset-1</code>)
+                                </div>
+                              </div>
+                              <!-- begin post-it note row -->
+                              <div class="row">
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-purple"></button>
+                                  <button class="btn btn-default col-md-1 bg-yellow"></button>
+                              </div>
+                              <!-- end post-it note row -->
+                            </div>
+                          </div>
+                          <!-- end offset example -->
+
+                        </div>
+                      </div>
+                      <!-- end inner accordion content -->
+                    </div>
+                  </div>
+                  <!-- end inner accordion -->
+
+                  <div class="well">
+                    <p>
+                      <strong>
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Having trouble?
+                      </strong>
+                      Put a sticky note on your computer!
+                    </p>
+                    <p>
+                      All done? Help people with sticky notes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end accordion group section 3 content-->
+            </div>
+            <!-- end accordion group section 3 -->
+
+            <!-- begin accordion group section 4 -->
+            <div class="panel panel-default">
+              <!-- begin accordion group section 4 header-->
+              <div class="panel-heading bg-purple">
+                <h2 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    Responsive images
+                  </a>
+                </h2>
+              </div>
+              <!-- end accordion group section 4 header-->
+              <!-- begin accordion group section 4 content-->
+              <div id="collapseFour" class="panel-collapse collapse out">
+                <div class="panel-body">
+                  <p class="lead">
+                    Now that you have a responsive layout, wouldn't it be
+                    sweet if your images scaled to fit, automatically?
+                  </p>
+                  <ul>
+                    <li>
+                      Add <code>class="img-responsive"</code> to the
+                      image element.
+                    </li>
+                    <li>
+                      Reload the page. Resize your browser to see the
+                      responsiveness happen.
+                      <span class="glyphicon glyphicon-star gold-star"></span>
+                    </li>
+                  </ul>
+
+                  <!-- begin inner accordion -->
+                  <div class="panel-group" id="accordionFourInner">
+                    <div class="panel panel-default">
+                      <!-- begin inner accordion header -->
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordionFourInner" href="#collapseFourInner">
+                            <em>But wait</em>, there's more...
+                          </a>
+                        </h3>
+                      </div>
+                      <!-- end inner accordion header -->
+                      <!-- begin inner accordion content -->
+                      <div id="collapseFourInner" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                          <ul>
+                            <li>
+                              Try also adding <code>class="img-thumbnail"</code>.
+                            </li>
+                            <li>
+                              Or <code>class="img-rounded"</code> (won't work on IE8).
+                              <button type="button" id="ie8-warning" class="btn btn-default btn-sm" data-container="body" data-toggle="popover" data-placement="right" data-content="Please upgrade if you can. IE8 was end-of-lifed for XP users in April 2014. And it doesn't implement CSS correctly anyway; you'll see a much better web with a newer browser.">
+                                (Still running IE 8?)
+                              </button>
+                            </li>
+                            <li>
+                              Or <code>class="img-circle"</code> (won't work on IE8).
+                            <li>
+                              Reload the page. Don't you look all designy?
+                            </li>
+                            <li>
+                              <span class="glyphicon glyphicon-star gold-star"></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- end inner accordion content -->
+                    </div>
+                  </div>
+                  <!-- end inner accordion -->
+
+                  <div class="well">
+                    <p>
+                      <strong>
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Having trouble?
+                      </strong>
+                      Put a sticky note on your computer!
+                    </p>
+                    <p>
+                      All done? Help people with sticky notes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end accordion group section 4 content-->
+            </div>
+            <!-- end accordion group section 4 -->
+          </div>
+          <!-- end accordion group -->
+        </div>
+      </div>
+      <!-- end main row div -->
+
+      <!-- begin buttons row div -->
+      <div class="row" id="buttons-row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="pull-right">
+            <a href="title.html" class="btn btn-primary bg-neutral">
+              Back home
+            </a>
+            <a href="more.html" class="btn btn-primary bg-neutral">
+              On to more stuff
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end buttons row div -->
+
+    </div>
+    <!-- end main container div -->
+    
+    <!-- begin footer -->
+    <div id="footer" class="bg-neutral">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <p>
+              <a href="http://andromedayelton.com">Andromeda Yelton</a> <span class="glyphicon glyphicon-star"></span>
+              ALA Annual 2014 <span class="glyphicon glyphicon-star"></span>
+              <a href="https://github.com/thatandromeda/bootstrap-tutorial/tree/gh-pages">Source files</a> 
+              <span class="glyphicon glyphicon-star"></span> 
+              <a href="http://design-seeds.com/index.php/home/entry/color-abstract1">Color scheme</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      // Must initialize popover.js before it will work.
+      $('#ie8-warning').popover();
+    </script>
+  </body>
+</html>
