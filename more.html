@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101: Yay Bootstrap!</title>
+    <title>Bootstrap 101: More stuff</title>
 
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css" type="text/css">
 
     <link href='http://fonts.googleapis.com/css?family=PT+Sans|Enriqueta:700' rel='stylesheet' type='text/css'>
@@ -20,33 +21,18 @@
   </head>
   <body>
     <!-- begin header -->
-    <div class="jumbotron bg-yellow">
+    <div class="jumbotron bg-green">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-offset-1 col-md-10">
+          <div class="col-md-10 col-md-offset-1">
             <h1>
-              Yay Bootstrap!
+              More stuff!
             </h1>
           </div>
         </div>
       </div>
     </div>
     <!-- end header -->
-
-    <!-- 
-          If you're trying to get accordions working in your own page and
-          you're stuck, proofread for these things:
-          * The href of the link that triggers your accordion should match
-            the id of the div with the collapsible content inside it
-          * The data-parent of the link that triggers your accordion should
-            match the id of the accordion's parent element
-          * If you have multiple accordions on a page, make sure their
-            ids are distinct.
-          
-          Look at how I've used collapseOne versus collapseTwo on this
-          page. For a more complex example, look at the nested accordions
-          on make.html.
-    -->
 
     <!-- begin main container div -->
     <div class="container-fluid">
@@ -61,7 +47,7 @@
               <div class="panel-heading bg-purple">
                 <h2 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    What's Bootstrap?
+                    Super sweet components...
                   </a>
                 </h2>
               </div>
@@ -69,12 +55,36 @@
               <!-- begin accordion group section 1 content-->
               <div id="collapseOne" class="panel-collapse collapse in">
                 <div class="panel-body">
+                  <p class="lead">
+                    If you want it, Bootstrap probably has it.
+                  </p>
+                  <p>
+                    Before you write your own CSS, check and see if
+                    Bootstrap already has it.  Examples I used in
+                    this presentation (there are many more):
+                  </p>
                   <ul>
                     <li>
-                      A <em>web framework</em>
+                      Buttons
                     </li>
                     <li>
-                      An <a href="https://github.com/twbs">open-source project</a>
+                      Panels (this content is in a panel: colored header
+                      with hover styles, thin grey border, rounded corners).
+                    </li>
+                    <li>
+                      Wells (the help box: shadowed, rounded borders, plus a 
+                      default grey background I overrode)
+                    </li>
+                    <li>
+                      Glyphicons (yes, <span class="glyphicon glyphicon-question-sign"></span>
+                      and <span class="glyphicon glyphicon-thumbs-up"></span> 
+                      and <span class="glyphicon glyphicon-thumbs-down"></span>
+                      and <span class="glyphicon glyphicon-star"></span> are
+                      pure CSS)
+                    </li>
+                    <li>
+                      Float anything right or left with <code>class="pull-right"</code>
+                      or <code>class="pull-left"</code>
                     </li>
                   </ul>
                 </div>
@@ -89,7 +99,7 @@
               <div class="panel-heading bg-orange">
                 <h2 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    Why is this great?
+                    ...and they toggle!
                   </a>
                 </h2>
               </div>
@@ -97,38 +107,49 @@
               <!-- begin accordion group section 2 content-->
               <div id="collapseTwo" class="panel-collapse collapse out">
                 <div class="panel-body">
+                  <p class="lead">
+                    Add JavaScript without writing any JavaScript.
+                  </p>
+                  
+                  <p>
+                    You can create interactive effects just by adding
+                    the right class names, id names, and/or data attributes
+                    to components.  Examples from this presentation (there
+                    are many more):
+                  </p>
+                  
                   <ul>
                     <li>
-                      Responsive by default
+                      Accordions
                     </li>
                     <li>
-                      Accessibility-aware
+                      <a href="#" data-toggle="modal" data-target="#omgModal">Modals</a>
                     </li>
                     <li>
-                      Tested on many browsers and devices
-                    </li>
-                    <li>
-                      Lets you focus on librarian stuff and save time on
-                      web development and design stuff...
-                    </li>
-                    <li>
-                      ...while making it look like you hired a web
-                      developer and a designer
+                      <button type="button" id="omgPopover" class="btn btn-default btn-sm" data-container="body" data-toggle="popover" data-placement="right" data-content="There's a Bootstrap tooltip that works similarly, too.">
+                        Popovers
+                      </button>
                     </li>
                   </ul>
+                  
+                  <p>
+                    See the <a href="what.html">Yay Bootstrap!</a> source 
+                    for comments on troubleshooting Bootstrap JS.
+                  </p>
+
                 </div>
               </div>
               <!-- end accordion group section 2 content-->
             </div>
             <!-- end accordion group section 2 -->
-
+            
             <!-- begin accordion group section 3 -->
             <div class="panel panel-default">
               <!-- begin accordion group section 3 header-->
               <div class="panel-heading bg-green">
                 <h2 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                    Examples
+                    Customization
                   </a>
                 </h2>
               </div>
@@ -136,38 +157,76 @@
               <!-- begin accordion group section 3 content-->
               <div id="collapseThree" class="panel-collapse collapse out">
                 <div class="panel-body">
+                  <p class="lead">
+                    Be different, just like everybody else.
+                  </p>
                   <ul>
                     <li>
-                      This very presentation
+                      Out-of-the-box bootstrap is super recognizable;
+                      don't use it.
                     </li>
                     <li>
-                      <a href="http://getbootstrap.com/">Bootstrap</a>
-                      (<a href="#" data-toggle="modal" data-target="#bootstrapModal">screenshot</a>)
+                      Changing just the color and font makes a huge
+                      difference!
                     </li>
                     <li>
-                      <a href="http://customfit.makewearlove.com">CustomFit</a>
-                      (<a href="#" data-toggle="modal" data-target="#customfitModal">screenshot</a>)
+                      It is <a href="http://getbootstrap.com/customize/">
+                      easy to customize</a>.
                     </li>
                     <li>
-                      <a href="https://www.lib.umn.edu/">University of Minnesota Libraries</a>
-                      (<a href="#" data-toggle="modal" data-target="#uofmModal">screenshot</a>)
+                      Here's 100% of my <a href="css/custom.css">custom
+                      styles</a>: two fonts, a color scheme, a footer I
+                      copy-pasted from Bootstrap, and a handful of layout
+                      tweaks. And a gold star. <span class="glyphicon glyphicon-star gold-star gold-star-snarky"></span>
                     </li>
                     <li>
-                      <a href="http://roxannekoranda.com/">Roxy Koronda</a>
-                      (<a href="#" data-toggle="modal" data-target="#roxykorondaModal">screenshot</a>)
+                      There are also lots of great free and cheap Bootstrap
+                      themes out there.
                     </li>
                     <li>
-                      Yes, there are Bootstrap-based Drupal and WordPress themes!
-                    </li>
-                    <li>
-                      Lots more at the <a href="http://expo.getbootstrap.com/">Bootstrap expo</a>
+                      Thoughtful use of components looks distinctive, too.
                     </li>
                   </ul>
+
+                  <!-- begin inner accordion -->
+                  <div class="panel-group" id="accordionTwoInner">
+                    <div class="panel panel-default">
+                      <!-- begin inner accordion header -->
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordionTwoInner" href="#collapseTwoInner">
+                            <em>But wait</em>, there's more...
+                          </a>
+                        </h3>
+                      </div>
+                      <!-- end inner accordion header -->
+                      <!-- begin inner accordion content -->
+                      <div id="collapseOneInner" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                          <!-- begin jumbotron full-width instructions -->
+                          <p>
+                            <a href="http://lesscss.org">less</a> - it's
+                            magic. It lets you use variables and mixins
+                            in your CSS. Want to define a @green instead of
+                            remembering the hex code everywhere? Want a lot
+                            of your elements to have the same
+                             .rounded_corners_and_orange_background()?
+                             You can and it's the best. Bootstrap is built
+                             on less -- this is what makes customization
+                             such a snap.
+                          </p>
+                        </div>
+                      </div>
+                      <!-- end inner accordion content -->
+                    </div>
+                  </div>
+                  <!-- end inner accordion -->
                 </div>
               </div>
               <!-- end accordion group section 3 content-->
             </div>
             <!-- end accordion group section 3 -->
+
           </div>
           <!-- end accordion group -->
         </div>
@@ -181,8 +240,8 @@
             <a href="title.html" class="btn btn-primary bg-neutral">
               Back home
             </a>
-            <a href="setup.html" class="btn btn-primary bg-neutral">
-              On to setup
+            <a href="questions.html" class="btn btn-primary bg-neutral">
+              On to questions
             </a>
           </div>
         </div>
@@ -192,70 +251,21 @@
     </div>
     <!-- end main container div -->
     
-    <!-- 
-          If you're trying to get modals working in your own page and
-          you're stuck, make sure:
-          
-          * The id of your modal matches the data-target of its triggering 
-            element.
-          * If you have more than one modal, they all have different ids.
-            (id should be unique in a page anyway.)
-          * They're inside the body tag but outside any other divs.
-    -->
-    <!-- begin screenshot modals -->
-    <!-- begin bootstrap screenshot modal -->    
-    <div class="modal fade" id="bootstrapModal">
+    <!-- begin omgmodal -->    
+    <div class="modal fade" id="omgModal">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <img class="img-responsive" src="img/bootstrap_screenshot.png">
+            <p>
+              They even have a working close button!
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <!-- end bootstrap screenshot modal -->    
-        
-    <!-- begin customfit screenshot modal -->    
-    <div class="modal fade" id="customfitModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <img class="img-responsive" src="img/customfit_screenshot.png">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end customfit screenshot modal -->    
-        
-    <!-- begin uofm screenshot modal -->    
-    <div class="modal fade" id="uofmModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <img class="img-responsive" src="img/uofm_screenshot.png">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end uofm screenshot modal -->    
-        
-    <!-- begin roxykoronda screenshot modal -->    
-    <div class="modal fade" id="roxykorondaModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <img class="img-responsive" src="img/roxykoronda_screenshot.png">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end roxykoronda screenshot modal -->    
-    <!-- end screenshot modals -->    
-        
+    <!-- end omgmodal -->    
+
     <!-- begin footer -->
     <div id="footer" class="bg-neutral">
       <div class="container-fluid">
@@ -278,5 +288,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      // Must initialize popover.js before it will work.
+      $('#omgPopover').popover();
+    </script>
   </body>
 </html>

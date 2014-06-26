@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<!--
+     This is the page you will get if you've applied all the basic styles
+     from the tutorial to base.html. You can use it to check your work.
+     
+     This is far from the only correct solution!  If it looks good, acts
+     right, and is valid HTML and CSS, it's correct.  (Check for standards-
+     compliance of your HTML and CSS at validator.w3.org and jigsaw.w3.org,
+     respectively. You can also use wave.webaim.org as a first-pass
+     accessibility checker.
+-->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,12 +17,11 @@
     <title>Bootstrap at ALA: Base Template</title>
 
     <!-- Bootstrap -->
+    <!--
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
-    <!-- uncomment this if you need to serve locally because the wifi is bad;
-         then copy-paste it to other pages
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,15 +34,35 @@
     <!-- begin main container div -->
     <div class="container">
       <!-- begin header -->
-      <div id="header">
+      <div id="header" class="jumbotron">
         <h1>Hello, world!</h1>
       </div>
       <!-- end header -->
+      
+      <!-- begin nav -->
+      <ul class="nav nav-tabs">
+        <li>
+          <a href="#">
+            Shazam
+          </a>
+        </li>
+        <li class="active">
+          <a href="#">
+            Vesper
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            All other cats on earth
+          </a>
+        </li>
+      </ul>
+      <!-- end nav -->
 
       <!-- begin content row -->
       <div class="row">
         <!-- begin text div -->
-        <div id="text">
+        <div id="text" class="col-md-6">
           <p>
             These are my cats, Shazam and Vesper.
           </p>
@@ -54,8 +83,8 @@
         </div>
         <!-- end text div -->
         <!-- begin image div -->
-        <div id="image">
-          <img src="img/shazam_and_vesper.jpg" >
+        <div id="image" class="col-md-6">
+          <img src="img/shazam_and_vesper.jpg" class="img-responsive">
         </div>
         <!-- end image div -->
       </div>
@@ -67,11 +96,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-    <!-- uncomment this if you need to serve locally because the wifi is bad;
-         then copy-paste it to other pages
-    <script src="js/jquery.min.js">
-    <script src="js/bootstrap.min.js">
-    -->    
   </body>
 </html>

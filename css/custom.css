@@ -4,6 +4,9 @@
 /
 -------------------------------------------------- */
 
+/* Layout and typography
+-------------------------------------------------- */
+
 body {
   font-family: 'PT Sans';        
 }
@@ -24,6 +27,10 @@ h2.panel-title {
   font-size: 30px;
 }
 
+.jumbotron {
+  padding-left: 0;
+}
+
 code {
   color: #B85F38;
   background-color: #FCF1EC;
@@ -34,13 +41,12 @@ strong {
   font-weight: bold;
 }
 
+/* Misc elements
+-------------------------------------------------- */
+
 .well {
   background-color: white;
   margin-bottom: 0;
-}
-
-.jumbotron {
-  padding-left: 0;
 }
 
 #buttons-row {
@@ -62,6 +68,10 @@ strong {
 
 .gold-star:hover:after {
   content: " yay! you rock :)";
+}
+
+.gold-star-snarky:hover:after {
+  content: " yay! I rock ;)";
 }
 
 .panel-heading:hover a {
