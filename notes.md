@@ -34,13 +34,15 @@ tasks
 
 ## What we'll cover
 
-* examples of what we won't cover?
-  * e.g. javascript
-  * forms
-  * buttons
 * jumbotron
 * nav bar
 * grid system
 * responsive images
+
+## Moar stuff
+* examples of what we won't cover?
+  * e.g. javascript
+  * forms
+  * buttons
 
 ## Questions?
